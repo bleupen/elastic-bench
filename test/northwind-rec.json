@@ -1,0 +1,18 @@
+{
+  "OrderDate": "1996-07-04T00:00:00-04:00",
+  "RequiredDate": "1996-08-01T00:00:00-04:00",
+  "ShipAddress": "59 rue de l'Abbaye",
+  "ShipCity": "Reims",
+  "ShipRegion": null,
+  "ShipPostalCode": "51100",
+  "ShipCountry": "France",
+  "ShippedDate": "1996-07-16T00:00:00-04:00",
+  "FirstName": "Steven",
+  "LastName": "Buchanan",
+  "UnitPrice": 14,
+  "Quantity": 12,
+  "ProductName": "Queso Cabrales",
+  "salesperson": "Steven Buchanan",
+  "orderAmount": 168,
+  "shipState": null
+}
