@@ -56,7 +56,8 @@ async function run() {
     new RecordStream(rec, 100000)
         .pipe(new RateStream(({rate, count}) => console.log(`${count} records processed (${Math.floor(rate)} rps)`)))
         // .pipe(new DevNull())
-        .pipe(new MultiThreadWriter({ pool: clientPool, index: 'test', type: 'data' }))
+        .pipe(new MultiThreadWriter({ pool: clientPool, index: 'test', type: 'data', maxBatchSize: 1000 }))
+        // .pipe(new SingleThreadWriter({ client, index: 'test', type: 'data' }))
         .on('finish', () => {
             console.log(`Took ${Date.now() - start} ms`);
         });
