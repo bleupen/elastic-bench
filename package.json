@@ -12,6 +12,6 @@
   "dependencies": {
     "@elastic/elasticsearch": "^7.4.0",
     "generic-pool": "^3.7.1",
-    "pg": "^7.12.1"
+    "pg": "^8.11.0"
   }
 }
